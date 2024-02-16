@@ -31,8 +31,8 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     height: 30px;
-    width: 10vw;
-    padding-left: 20px;
+    width: 90px;
+    /* padding-left:18px; */
     text-align: center;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
 }
@@ -41,7 +41,7 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     height: 30px;
-    width: 4vw;
+    width: 70px;
     text-align: center;
     background: cadetblue;
     transition: all ease-in-out 0.1s;
@@ -57,7 +57,7 @@ body{
     margin-top: 5px;
     background: rgb(112, 178, 181);
     height: 8vh;
-    width: 20vw;
+    width: 200px;
     text-align: center;
     border-radius: 10px;
     border: 2px solid black;
@@ -67,7 +67,7 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     height: 30px;
-    width: 4vw;
+    width: 70px;
     text-align: center;
     background: cadetblue;
     transition: all ease-in-out 0.1s;
@@ -86,4 +86,17 @@ body{
     text-align: center;
     padding-top: 8px;
 
+}
+@media screen and (max-width: 760px) {
+.container{
+    height: 100vh;
+   
+    border-radius: 0px;
+    width: 500px;
+}
+}
+@media screen and (min-width: 760px) {
+    .container{
+        height: 600px;
+    }
 }
